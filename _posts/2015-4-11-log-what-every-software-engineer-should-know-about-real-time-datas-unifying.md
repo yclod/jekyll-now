@@ -1,3 +1,7 @@
+---
+layout: post
+title: 日志：每个程序员都应该知道的实时数据的统一抽象
+---
 翻译自：http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
 原文作者：[Jay Kreps](http://www.linkedin.com/in/jaykreps)
 
