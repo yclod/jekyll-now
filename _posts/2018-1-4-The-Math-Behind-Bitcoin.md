@@ -35,18 +35,20 @@ $$
 
 椭圆曲线有一些有用的性质。比如，一条不垂直于坐标轴的直线若与椭圆曲线相交于两点且不是切点，则该直线与椭圆曲线存在第三个交点。再比如，若一条不垂直于坐标轴的直线与椭圆曲线在一点相切，则必相交于另一点。
 
-**Point addition(点加)**，P + Q = R，定义了“过P与Q的直线，交椭圆曲线于第三点R'，R是R'经X轴的镜像点”。用下图比较好理解:
+**Point addition (点加)**，P + Q = R，定义了“过P与Q的直线，交椭圆曲线于第三点R'，R是R'经X轴的镜像点”。用下图比较好理解:
 
 ![](https://media.coindesk.com/uploads/2014/10/point-addition.png)
 
-相应的，**point doubling(倍点)**, P + P = R，表示寻找一条直线与椭圆曲线相切于点P，再交于点R'，R'再经X轴对称而得到镜像点R。如下图所示:
+相应的，**point doubling (倍点)**, P + P = R，表示寻找一条直线与椭圆曲线相切于点P，再交于点R'，R'再经X轴对称而得到镜像点R。如下图所示:
 
 ![](https://media.coindesk.com/uploads/2014/10/point-doubling.png)
 
-以上两个操作被用来做***scalar multiplication***(标量乘法)，R = a P， 表示将点P与自己相加a次。例如：
+以上两个操作被用来做***scalar multiplication*** (标量乘法)，R = a P， 表示将点P与自己相加a次。例如：
 
 $$
 R = 7P
+$$
+$$
 R = P + (P + (P + (P + (P + (P + P)))))
 $$
 
@@ -54,8 +56,14 @@ $$
 
 $$
 R = 7P
+$$
+$$
 R = P + 6P
+$$
+$$
 R = P + 2(3P)
+$$
+$$
 R = P + 2(P + 2P)
 $$
 
