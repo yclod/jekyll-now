@@ -26,3 +26,7 @@ ECDSA中签名和确认签名是两个不同的过程。每个过程都是一系
 一个椭圆曲线可以用数学公式表示为：
 
 ```$y^2$ = $x^3$ + ax + b```
+
+对于 a = 0 和 b = 7 (比特币使用的参数)，它的图像如下图所示：
+
+![](https://media.coindesk.com/uploads/2014/10/elliptic-curves.png)
